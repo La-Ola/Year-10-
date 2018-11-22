@@ -42,11 +42,11 @@ gender = input()
 
 if age >= 21:
     if gender == "girl":
-        print ("Should'nt you be cleaning like a good housewife")
+        print ("cool")
     elif gender == "boy":
         print ("Add me on Ps4 mate")
 elif age <= 21:
     if gender == "girl":
-        print ("Don't talk to strangers... go to school, little girl")
+        print ("well nice to meet you")
     elif gender == "boy":
-        print ("Get to school, don't talk to strangers. Are you dumb?")
+        print ("hey we are in the same year")

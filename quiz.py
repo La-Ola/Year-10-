@@ -1,18 +1,18 @@
 #Quiz
 score = 0
-print ("Score",score,"/5")
+print ("Score",score,"/5") #score not in brackets refers to the variable
 
-ans= input("Question 1) How many lives do cats have?")
-if ans=="9":
+ans= input("Question 1) How many lives do cats have?") #inputs users answer to the variable
+if ans=="9": # if answer is equal to 9 do this 
     print("Correct!")
-    score = score + 1
+    score = score + 1 #adds one to the score
     print ("Score",score,"/5")
 
-else:
+else: #if not do this
     print("Incorrect")
     print("Score", score,"/5")
 
-ans= input("Question 2) What colour is the sky?")
+ans = input("Question 2) What colour is the sky?")
 if ans=="blue":
     print("Correct!")
     score = score + 1
@@ -51,3 +51,5 @@ if ans=="Gloster":
 else:
     print("Incorrect")
     print("Score", score,"/5")
+
+print("This is your final score", score) #prints final score

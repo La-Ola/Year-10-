@@ -4,7 +4,7 @@ print ("**************************************************************")
 years = int(input("How many years have you been driving for?"))
 points = int(input("How many penalty point do you have?"))
 
-if years <=2 and points >=6:
+if years <=2 and points >=6: #engulfs numbers including and below 2 and including and above 6
     print("-------------LICENCE SUMMARY-------------")
     print("   YOUR LICENCE HAS BEEN DISQUALIFIED.")
     print("-----------------------------------------")

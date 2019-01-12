@@ -1,4 +1,5 @@
-
+#based on my favourite song when i was in year 10 by Hoodie Allen called 'are you having any fun'
+#literally coded for fun
 #Loops
 
 print ("*****ARE~YOU~HAVING~ANY~FUN*****")
